@@ -10,7 +10,7 @@ function colourChange() {
 const menu = document.querySelector('.menu');
 const btn = menu.querySelector('.nav-tgl');
 const navItem1 = menu.querySelector('.nav-item1');
-// const navItem2 = menu.querySelector('.nav-item2');
+const navItem2 = menu.querySelector('.nav-item2');
 const navItem3 = menu.querySelector('.nav-item3');
 
 // Menu Event Listeners
@@ -22,10 +22,10 @@ navItem1.addEventListener('click', evt => {
 	menu.classList.toggle('active');
 	colourChange();
 });
-// navItem2.addEventListener('click', evt => {
-// 	menu.classList.toggle('active');
-// 	colourChange();
-// });
+navItem2.addEventListener('click', evt => {
+	menu.classList.toggle('active');
+	colourChange();
+});
 navItem3.addEventListener('click', evt => {
 	menu.classList.toggle('active');
 	colourChange();
