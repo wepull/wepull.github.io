@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<!-- Your Website Title -->
+	<title>vipul.dev</title>
+	<!-- Your Website Description -->
+	<meta name="description"
+		content="This is Vipul Choudhary's development portfolio, you can find him at https://wepull.github.io" />
+	<meta name="author" content="Vipul Choudhary">
+
+	<!-- Meta Tags for Responsiveness -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Social Media Meta Tags -->
+	<meta property="og:url" content="http://wepull.github.io/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title"
+		content="This is Vipul Choudhary's development portfolio, you can find him at https://wepull.github.io" />
+	<meta property="og:description"
+		content="This is Vipul Choudhary's development portfolio, you can find him at https://wepull.github.io" />
+	<meta property="og:image" content="http://yashovardhan.dev/assets/img/logo_big.png" />
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="./favicon.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144"
+		href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i" rel="stylesheet">
+
+	<!-- Bootstrap & Other CSS Files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+		integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+		crossorigin="anonymous" />
+
+	<!-- Project CSS File -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/400db8db7c.js" crossorigin="anonymous"></script>
+</head>
+
+<body onclick="colourChange()">
+	<!-- Page Wrapper -->
+	<div class="page-wrapper">
+		<!-- Header -->
+		<header>
+			<div class="logo animate">
+				<a href="#">
+					<img class="img-responsive" src="assets/img/logo.png" alt="vipul">
+				</a>
+			</div>
+		</header>
+
+		<!-- Content Wrapper -->
+		<div class="content-wrapper">
+			<div class="content-main animate">
+				<div class="container">
+					<h1 class="page-title">Hi, I'm Vipul!</h1>
+					<h2 style="font-weight: 700;">Software Developer | GO | NodeJS | Python</h2>
+				</div>
+			</div>
+			<!-- Background Wrapper -->
+			<div class="background-wrapper">
+				<div id="background-content"></div>
+			</div>
+		</div>
+
+		<!-- Menu -->
+		<div class="menu">
+			<button class="nav-tgl" type="button" aria-label="toggle menu">
+				<span aria-hidden="true"></span>
+			</button>
+			<div class="nav">
+				<div class="header">
+					<div class="logo animate">
+						<a href="#">
+							<img class="img-responsive" src="assets/img/logo-white.png" alt="yash">
+						</a>
+					</div>
+				</div>
+				<div class="nav-content">
+					<a href="" data-toggle="modal" data-target="#modal-about" class="nav-item1">
+						<h1 class="nav-link">About</h1>
+					</a>
+					<!-- <a href="" data-toggle="modal" data-target="#modal-projects" class="nav-item2">
+						<h1 class="nav-link">Projects</h1>
+					</a> -->
+					<a href="mailto:vipulc721.dev@gmail.com" target="_blank" class="nav-item3">
+						<h1 class="nav-link">Let's Connect!</h1>
+					</a>
+				</div>
+				<div class="footer">
+					<div class="social-icons animate">
+						<a href="https://github.com/wepull" target="_blank"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/wepull/" target="_blank"><i class="fa fa-linkedin"></i></a>
+						<a href="mailto:vipulc721.dev@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<div class="social-icons animate">
+				<a href="https://github.com/wepull" target="_blank"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/wepull/" target="_blank"><i class="fa fa-linkedin"></i></a>
+				<a href="mailto:vipulc721.dev@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+			</div>
+		</footer>
+	</div>
+
+	<!-- About Modal -->
+	<div class="modal fade" id="modal-about" tabindex="-1" role="dialog" aria-labelledby="modal-about-label">
+		<div class="modal-dialog" role="document">
+			<div class="container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title" id="modal-about-label">About</h2>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<!-- Left Col for Introduction -->
+							<div class="col-md-3" style="overflow: hidden; ">
+								<div class="person">
+									<div class="image">
+										<img class="img-responsive" src="assets/img/Vipul.jpg" alt="yashovardhan">
+									</div>
+									<h4>Vipul Choudhary</h4>
+									<h5>Member of Technical Staff - <a href="http://Lambdatest.com">Lambdatest</a></h5>
+									<h5><a href="mailto:vipulc721.dev@gmail.com"
+											target="_blank">vipulc721.dev@gmail.com</a></h5>
+									<h5><i class="fa fa-map-marker"></i><span style="padding-left: 8px;">Bikaner,
+											Rajasthan</span></h5>
+									<div class="social-icons" style="margin-left: -0.3125rem;">
+										<a href="https://github.com/wepull" target="_blank"><i
+												class="fa fa-github"></i></a>
+										<a href="https://www.linkedin.com/in/wepull/" target="_blank"><i
+												class="fa fa-linkedin"></i></a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Right Col for Description -->
+							<div class="col-md-9">
+								<section class="mb-5">
+									<h3 class="h5 mb-3">About Me</h3>
+									<p class="text-muted">
+										Software engineer with 3+ years in backend, distributed systems, and
+										cloud-native tech.
+										I build scalable microservices, improve performance, and craft tools that boost
+										developer
+										productivity. My experience spans test automation, developer tooling, infra
+										optimization,
+										and LLM integrations. Proficient in Go &amp; C++, I focus on reliable,
+										efficient, and impactful engineering.
+									</p>
+								</section>
+
+								<hr>
+
+								<!-- ===== Current Role ===== -->
+								<section class="mb-5">
+									<h3 class="h5 mb-3">Current Role</h3>
+									<div class="d-flex flex-wrap align-items-center mb-2">
+										<img src="assets/img/Lambdatest-logo.png" alt="Lambdatest"
+											style="max-height:40px;" class="me-3">
+										<div>
+											<h4 class="h6 mb-0">Member of Technical Staff <span class="text-muted">—
+													LambdaTest</span></h4>
+											<small class="text-muted"><i class="fa fa-map-marker"></i> Noida,
+												India</small>
+										</div>
+									</div>
+									<p class="mb-2 text-muted">
+										As a Member of Technical Staff at Lambdatest I was a part of the HyperExecute team, designing backend systems for large-scale test
+										infra.
+										My work spans microservice optimization, cloud migration, and developer tooling.
+									</p>
+									<ul class="small text-muted ps-3">
+										<li>Reduced dispatcher memory usage by <strong>74%</strong> (YAML
+											parallelization).</li>
+										<li>Migrated artifact storage to Cloudflare R2, cutting costs by
+											<strong>45%</strong>.
+										</li>
+										<li>Built custom Java executors (JUnit, TestNG, Cucumber, etc.).</li>
+										<li>Led HyperExecute GUI, streamlining onboarding & multi-framework support.
+										</li>
+										<li>Developed multi-report generation, boosting test performance by
+											<strong>50%</strong>.
+										</li>
+									</ul>
+									<p class="small text-muted">Tech: Go, Node.js, Redis, Kafka, Docker, Kubernetes,
+										MySQL, AWS/GCP/Azure</p>
+								</section>
+
+								<hr>
+
+								<!-- ===== Previous Experience ===== -->
+								<section class="mb-5">
+									<h3 class="h5 mb-3">Previously</h3>
+
+									<!-- Roost.ai – MTS -->
+									<div class="d-flex flex-wrap align-items-center mb-2">
+										<img src="assets/img/Roost-logo.png" alt="Roost.ai" style="max-height:40px;"
+											class="me-3">
+										<div>
+											<h4 class="h6 mb-0">Member of Technical Staff <span class="text-muted">—
+													Roost.ai</span></h4>
+											<small class="text-muted"><i class="fa fa-map-marker"></i> Bangalore,
+												India</small>
+										</div>
+									</div>
+									<p class="mb-2 text-muted">
+										As a Member of Technical Staff at Roost.ai I worked on backend systems and developer tools with focus on cloud-native
+										deployments & automated testing.
+									</p>
+									<ul class="small text-muted ps-3">
+										<li>Created VS Code extension (CodeLens/WebViews) for in-IDE test generation &
+											reports.</li>
+										<li>Built CLI tool for multi-cloud deployments on Kubernetes & major providers.
+										</li>
+										<li>Enhanced test automation with Java & C++ AST parsers + LLM integration.</li>
+										<li>Expanded product offerings by <strong>20%</strong> via parsing & mock server
+											integrations.</li>
+										<li>Authored GitHub Actions for CI integration & testing workflows.</li>
+									</ul>
+
+									<!-- Roost.ai – Software Trainee -->
+									<div class="d-flex flex-wrap align-items-center mt-4 mb-2">
+										<img src="assets/img/Roost-logo.png" alt="Roost.ai" style="max-height:40px;"
+											class="me-3">
+										<div>
+											<h4 class="h6 mb-0">Software Trainee <span class="text-muted">—
+													Roost.ai</span></h4>
+											<small class="text-muted"><i class="fa fa-map-marker"></i> Bangalore,
+												India</small>
+										</div>
+									</div>
+									<p class="mb-2 text-muted">
+										As a Software Trainee at Roost.ai I focused on platform reliability, security, and infra automation.
+									</p>
+									<ul class="small text-muted ps-3">
+										<li>Implemented credential masking in logs & console outputs.</li>
+										<li>Set up centralized logging with Fluent Bit → Amazon S3.</li>
+										<li>Built custom CircleCI orb for smoother CI/CD integration.</li>
+										<li>Deployed self-hosted AI models (Llama, StarChat-Alpha) for RoostGPT.</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Projects Modal -->
+	<!-- <div class="modal fade" id="modal-projects" tabindex="-1" role="dialog" aria-labelledby="modal-projects-label">
+		<div class="modal-dialog" role="document">
+			<div class="container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title" id="modal-projects-label">Projects</h2>
+					</div>
+					<div class="modal-body">
+						<div style="margin-bottom: 1.875rem;">
+							<h3>Project Category</h3>
+							<p>
+								Project Description
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<div class="project1 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Community Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Project
+														Name</a></h3>
+												<p class="text">Your project's long description goes here. Make sure you
+													write a long description here for the field to properly occupy the
+													space of the card.</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="project2 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Community Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Project
+														Name</a></h3>
+												<p class="text">Your project's long description goes here. Make sure you
+													write a long description here for the field to properly occupy the
+													space of the card.</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="project3 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Community Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Project
+														Name</a></h3>
+												<p class="text">Your project's long description goes here. Make sure you
+													write a long description here for the field to properly occupy the
+													space of the card.</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<style>
+			hr {
+				border-top: 1px solid rgba(0, 0, 0, 0.08);
+				margin: 2rem 0;
+			}
+
+			ul li {
+				margin-bottom: .4rem;
+			}
+		</style>
+		<!-- Bootstrap Scripts -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+			integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+			integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+			integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+			integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+			crossorigin="anonymous"></script>
+		<!-- Sketch.js -->
+		<script src="assets/js/sketch.min.js"></script>
+
+		<!-- Project JS File -->
+		<script src="assets/js/script.js"></script>
+</body>
+
+</html>
